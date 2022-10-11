@@ -1,5 +1,4 @@
 <?php
-require "index.php";
 
 $error = '';
 $name = '';
@@ -93,4 +92,5 @@ if ($error == '') {
     }
 
 }
+include 'index.php';
 ?>
